@@ -2,3 +2,25 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+div {
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 20px 25px;
+}
+
+@media screen and (min-width: 575px){
+  div {
+      margin: 1%;
+      width:48%;
+  }
+}
+
+@media screen and (min-width: 575px){
+  div {
+      margin: 1%;
+      width: 19%;
+  }
+}
+
